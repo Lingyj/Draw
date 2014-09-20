@@ -51,8 +51,8 @@
 		3FAE488015ECC9F100B10EEE /* PictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAE487E15ECC9F100B10EEE /* PictureViewController.m */; };
 		3FAE488115ECC9F100B10EEE /* PictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FAE487F15ECC9F100B10EEE /* PictureViewController.xib */; };
 		3FAE488415ECCA0000B10EEE /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAE488315ECCA0000B10EEE /* DrawView.m */; };
-		3FAE488715ECCA0F00B10EEE /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAE488615ECCA0F00B10EEE /* Line.m */; };
 		3FC6EC6815EF807F00BBAE35 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FC6EC6715EF807F00BBAE35 /* 2.png */; };
+		AE16F4B419CD3D8400647C11 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = AE16F4B319CD3D8400647C11 /* Line.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -107,9 +107,9 @@
 		3FAE487F15ECC9F100B10EEE /* PictureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PictureViewController.xib; sourceTree = "<group>"; };
 		3FAE488215ECCA0000B10EEE /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
 		3FAE488315ECCA0000B10EEE /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
-		3FAE488515ECCA0F00B10EEE /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Line.h; path = ../Line.h; sourceTree = "<group>"; };
-		3FAE488615ECCA0F00B10EEE /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Line.m; path = ../Line.m; sourceTree = "<group>"; };
 		3FC6EC6715EF807F00BBAE35 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		AE16F4B219CD3D8400647C11 /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		AE16F4B319CD3D8400647C11 /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,8 +205,8 @@
 				3FAE487F15ECC9F100B10EEE /* PictureViewController.xib */,
 				3FAE488215ECCA0000B10EEE /* DrawView.h */,
 				3FAE488315ECCA0000B10EEE /* DrawView.m */,
-				3FAE488515ECCA0F00B10EEE /* Line.h */,
-				3FAE488615ECCA0F00B10EEE /* Line.m */,
+				AE16F4B219CD3D8400647C11 /* Line.h */,
+				AE16F4B319CD3D8400647C11 /* Line.m */,
 				3F875D9715F0556A00317A9B /* UIViewHelper.h */,
 				3F875D9815F0556A00317A9B /* UIViewHelper.m */,
 				3F95FF2715EF2C10003125AC /* imge */,
@@ -324,10 +324,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FAE487315ECC9B600B10EEE /* main.m in Sources */,
+				AE16F4B419CD3D8400647C11 /* Line.m in Sources */,
 				3FAE487715ECC9B600B10EEE /* AppDelegate.m in Sources */,
 				3FAE488015ECC9F100B10EEE /* PictureViewController.m in Sources */,
 				3FAE488415ECCA0000B10EEE /* DrawView.m in Sources */,
-				3FAE488715ECCA0F00B10EEE /* Line.m in Sources */,
 				3F875D9915F0556B00317A9B /* UIViewHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
